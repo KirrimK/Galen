@@ -1,4 +1,4 @@
-# image-template
+# Galen
 
 This repository is meant to be a template for building your own custom [bootc](https://github.com/bootc-dev/bootc) image. This template is the recommended way to make customizations to any image published by the Universal Blue Project.
 
@@ -173,7 +173,7 @@ To use it, you must have installed [just](https://just.systems/man/en/introducti
 
 ## Environment Variables
 
-- `image_name`: The name of the image (default: "image-template").
+- `image_name`: The name of the image (default: "Galen").
 - `default_tag`: The default tag for the image (default: "latest").
 - `bib_image`: The Bootc Image Builder (BIB) image (default: "quay.io/centos-bootc/bootc-image-builder:latest").
 
@@ -249,12 +249,3 @@ Runs shell check on all Bash scripts.
 
 Runs shfmt on all Bash scripts.
 
-## Community Examples
-
-These are images derived from this template (or similar enough to this template). Reference them when building your image!
-
-- [m2Giles' OS](https://github.com/m2giles/m2os)
-- [bOS](https://github.com/bsherman/bos)
-- [Homer](https://github.com/bketelsen/homer/)
-- [Amy OS](https://github.com/astrovm/amyos)
-- [VeneOS](https://github.com/Venefilyn/veneos)
